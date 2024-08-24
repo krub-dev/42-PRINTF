@@ -1,4 +1,4 @@
-Proyecto: PRINTF (https://github.com/krub-dev/42-PRINTF/blob/main/printf/DOCS/Doc_PRINTF_Frubio-i.pdf)
+Proyecto: PRINTF [PRINTF](https://github.com/krub-dev/42-PRINTF/blob/main/printf/DOCS/Doc_PRINTF_Frubio-i.pdf)
 
 Este proyecto consiste en desarrollar una función personalizada,
 ft_printf(), que imita el comportamiento de la función printf() de la

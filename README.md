@@ -6,7 +6,7 @@ biblioteca estándar de C. La función ft_printf() es una parte
 integral de la librería LIBFT, diseñada para proporcionar una
 serie de funciones de utilidad que facilitan el desarrollo de
 programas en C. Al igual que las otras funciones en
-LIBFT,ft_printf() está diseñada para ser modular y fácilmente
+LIBFT, ft_printf() está diseñada para ser modular y fácilmente
 integrable en proyectos de C, ofreciendo una alternativa robusta y
 extensible a la función printf() original.
 

@@ -11,6 +11,7 @@ integrable en proyectos de C, ofreciendo una alternativa robusta y
 extensible a la función printf() original.
 
 CARACTERÍSTICAS PRINCIPALES
+
 La reprogramación de printf() implica el manejo de un número
 variable de argumentos y la implementación de varias conversiones
 de formato, como caracteres, cadenas, enteros, números
@@ -20,33 +21,50 @@ eficiente y precisa, replicando el comportamiento esperado de
 printf() en las condiciones dadas en el subject.
 
 MANIPULACIÓN DE FORMATO
+
 •%c: Imprime un solo carácter.
+
 •%s: Imprime una cadena de caracteres.
+
 •%p: Imprime el valor de un puntero en formato hexadecimal.
+
 •%d e %i: Imprimen un número entero en base 10.
+
 •%u: Imprime un número entero sin signo en base 10.
+
 •%x y %X: Imprimen un número hexadecimal en minúsculas y mayúsculas,
 respectivamente.
+
 •%%: Imprime el carácter de porcentaje.
 
+
 FUNCIONES CLAVE
+
 El proyecto se estructura alrededor de varias funciones auxiliares
 que trabajan en conjunto para proporcionar la funcionalidad pedida
 en el subject del proyecto ft_printf():
+
 ft_check_type(): Esta función es responsable de determinar el tipo
 de dato a imprimir basándose en el carácter de formato
 proporcionado y llama a la función apropiada para manejar dicho
 tipo.
 
 Funciones de Impresión:
+
 ft_put_chr(): Imprime un único carácter en la salida estándar.
+
 ft_put_str(): Imprime una cadena completa en la salida estándar,
 con manejo especial para cadenas nulas.
+
 ft_put_p(): Imprime el valor de un puntero en formato hexadecimal,
 precedido por "0x", incluyendo el manejo de punteros nulos.
+
 ft_put_di(): Imprime un número entero decimal, con soporte para
 números negativos y el valor mínimo de int.
+
 ft_put_u(): Imprime un número entero sin signo en decimal.
+
 ft_put_hex(): Imprime un número en formato hexadecimal,
 permitiendo tanto minúsculas como mayúsculas según el
 especificador de formato.
+

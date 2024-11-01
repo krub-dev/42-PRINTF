@@ -1,4 +1,6 @@
-PRINTF
+<h1 align="center">
+  <img src="https://iili.io/2od44kv.png" alt="libft krub" width="1200" height="auto" style="align: bottom;"> 
+</h1>
 
 Este proyecto consiste en desarrollar una función personalizada,
 ft_printf(), que imita el comportamiento de la función printf() de la
